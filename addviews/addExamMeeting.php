@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>MidTerm App</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../css/style.css">
 	<?php
 		$username = 'root';
 		$password = '';
@@ -75,8 +75,8 @@
 			<input type="submit" value="Add meeting">
 		</form>
 		<nav>
-			<a href="index.html">Main page</a>
-			<a href="showExams.php">Show all exam meetings</a>
+			<a href="../index.html">Main page</a>
+			<a href="../showviews/showExams.php">Show all exam meetings</a>
 		</nav>
 		<?php
 			$pushAllowed = true;

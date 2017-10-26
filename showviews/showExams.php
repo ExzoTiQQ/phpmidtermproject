@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>MidTerm App</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../css/style.css">
 	<?php
 		$username = 'root';
 		$password = '';
@@ -55,8 +55,8 @@
 	?>
 	</table>
 	<nav>
-		<a href="index.html">Main page</a>
-		<a href="addExamMeeting.php">Add new exam meeting</a>
+		<a href="../index.html">Main page</a>
+		<a href="../addviews/addExamMeeting.php">Add new exam meeting</a>
 	</nav>
 </body>
 </html>

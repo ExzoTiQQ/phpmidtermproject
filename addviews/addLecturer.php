@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>MidTerm App</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 	<h1>Add new Lecturer</h1>
@@ -15,8 +15,8 @@
 			<input type="submit" value="Add lecturer">
 		</form>
 		<nav>
-			<a href="index.html">Main page</a>
-			<a href="showLecturers.php">Show all lecturers</a>
+			<a href="../index.html">Main page</a>
+			<a href="../showviews/showLecturers.php">Show all lecturers</a>
 		</nav>
 	<?php
 		$username = 'root';
