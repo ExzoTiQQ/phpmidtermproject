@@ -43,7 +43,7 @@
 
 		if($pushAllowed) {
 			$conn->query("INSERT INTO lecturers (lecturer_name, lecturer_surname, lecturer_subject) VALUES (\"$name\", \"$surname\", \"$subject\")");
-			header('location: showLecturers.php');
+			header('location: ../showviews/showLecturers.php');
 		}
 		$conn->close();
 	?>

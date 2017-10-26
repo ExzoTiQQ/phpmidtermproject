@@ -99,7 +99,7 @@
 
 			if($pushAllowed) {
 				$conn->query("INSERT INTO exams (lecturer_id, student_id, exam_mark, exam_date) VALUES (\"$lecturer_id\", \"$student_id\", \"$grade\", \"$meetingDate\")");
-				header("location: showExams.php");
+				header("location: ../showviews/showExams.php");
 			}
 			$conn->close();
 		?>

@@ -38,7 +38,7 @@
 
 		if($pushAllowed) {
 			$conn->query("INSERT INTO students (student_name, student_surname) VALUES (\"$name\", \"$surname\")");
-			header('location: showStudents.php');
+			header('location: ../showviews/showStudents.php');
 		}
 		$conn->close();
 	?>
