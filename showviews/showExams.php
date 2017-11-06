@@ -61,6 +61,7 @@
 	<nav>
 		<a href="../index.html">Main page</a>
 		<a href="../addviews/addExamMeeting.php">Add new exam meeting</a>
+		<a href="../deleteViews/deleteExamMeeting.php">Delete exam meeting</a>
 	</nav>
 </body>
 </html>

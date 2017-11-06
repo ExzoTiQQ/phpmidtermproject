@@ -78,6 +78,7 @@
 		<nav>
 			<a href="../index.html">Main page</a>
 			<a href="../showviews/showExams.php">Show all exam meetings</a>
+			<a href="../deleteViews/deleteExamMeeting.php">Delete exam meeting</a>
 		</nav>
 		<?php
 			$pushAllowed = true;

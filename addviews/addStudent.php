@@ -17,6 +17,7 @@
 		<nav>
 			<a href="../index.html">Main page</a>
 			<a href="../showviews/showStudents.php">Show all students</a>
+			<a href="../deleteViews/deleteStudent.php">Delete student</a>
 		</nav>
 	<?php
 		$username = 'root';

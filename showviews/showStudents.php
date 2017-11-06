@@ -52,6 +52,7 @@
 	<nav>
 		<a href="../index.html">Main page</a>
 		<a href="../addviews/addStudent.php">Add new student</a>
+		<a href="../deleteviews/deleteStudent.php">Delete student</a>
 	</nav>
 </body>
 </html>
