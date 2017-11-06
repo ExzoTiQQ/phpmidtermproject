@@ -15,7 +15,7 @@
 
 		$conn = new mysqli($server, $username, $password, $database);
 		if($conn->connect_error) die($conn->connect_error);
-		$data = $conn->query("SELECT lecturers.lecturer_name, lecturers.lecturer_surname, students.student_name, students.student_surname, lecturers.lecturer_subject, exams.exam_mark
+		$data = $conn->query("SELECT lecturers.lecturer_name, lecturers.lecturer_surname, students.student_name, students.student_surname, lecturers.lecturer_subject, exams.exam_mark, exams.exam_date
 			FROM lecturers, students, exams
 			WHERE exams.lecturer_id = lecturers.lecturer_id AND exams.student_id = students.student_id");
 		if (!$data) die ($conn->error);
@@ -31,6 +31,7 @@
 			<th><strong>Student</strong></th>
 			<th><strong>Subject</strong></th>
 			<th><strong>Mark</strong></th>
+			<th><strong>Exam date</strong></th>
 		</tr>
 	<?php
 		$i = 0;
@@ -44,12 +45,14 @@
 			$student_surname = $row["student_surname"];
 			$subject = $row["lecturer_subject"];
 			$mark = $row["exam_mark"];
+			$date = $row["exam_date"];
 			$i++;
 			echo "<tr>
 					<td>$lecturer_name $lecturer_surname</td>
 					<td>$student_name $student_surname</td>
 					<td>$subject</td>
 					<td>$mark</td>
+					<td>$date</td>
 				<tr>";
 		}
 		$data->close();
