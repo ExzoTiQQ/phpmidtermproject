@@ -93,7 +93,6 @@ input:focus {
 label {
 	display: inline-block;
 	margin-bottom: 4px;
-	width: 200px;
 	text-align: left;
 	font-size: 12px;
 }
@@ -101,7 +100,7 @@ select, input[type='number'] {
 	padding: 16px;
 	background: #eeeeee;
 	border: none;
-	width: 200px;
+	outline: none;
 	font-family: inherit;
 	font-size: 16px;
 	margin-bottom: 16px;
@@ -116,7 +115,6 @@ option {
 }
 select:focus {
 	border: none;
-	outline: none;
 	border-radius: 2px;
 	-webkit-box-shadow: 0px 2px 9px 1px rgba(170,170,170,1);
 	-moz-box-shadow: 0px 2px 9px 1px rgba(170,170,170,1);
